@@ -8,6 +8,7 @@
 
 ## `Comparison with SOTA Methods:`
 <img width="1227" height="675" alt="image" src="https://github.com/user-attachments/assets/1a144152-cb2a-4e7a-a265-00a62f65b7cd" />
+
 ## Dependencies
 biopython==1.83
 fair-esm===2.0.0
