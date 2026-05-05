@@ -117,3 +117,5 @@ The model parameters used for visualization are available in the following file:
 ```bash
 /Glycan_binding/glycan_binding.pt
 ```
+## Reference and cite content
+SAGEGly: Using multimodal information to predict protein-glycan binding sites with the Graph Sample and Aggregate Networks Framework.
