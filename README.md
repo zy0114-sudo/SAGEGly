@@ -26,5 +26,93 @@ torch-spline-conv==1.2.2+pt24cu118
 torchaudio==2.4.1+cu118  
 torchvision==0.19.1+cu118  
 
-## Date preparation
-1. `Preprocessing the embedding of the ppi task data.`
+## 1 PPI Data Preparation
+
+`Preprocessing the embeddings of the PPI prediction task data.`
+
+The training and test embedding data used for model training can be generated using the following notebooks:
+
+```bash
+/ppi/train_embedding.ipynb
+/ppi/test_embedding.ipynb
+```
+
+The coordinates, sequences, solvent-accessible surface area, and ESM parameters of GBPs and glycoproteins are available from Zenodo. These files are required to run the embedding scripts.
+
+## 2 PPI Data Training
+
+`Training the PPI prediction model.`
+
+Run the following command:
+
+```bash
+python /ppi/train.py
+```
+
+The trained model parameters are saved in the following file:
+
+```bash
+/ppi/ppi_train.pt
+```
+
+## 3 Geometric Filtering
+
+`Filtering candidate binding sites based on geometric features.`
+
+Run the following command:
+
+```bash
+python /Geometric_filtering/geometric_filtering.py
+```
+
+## 4 Glycan-Binding Data Preparation
+
+`Preprocessing the embeddings of the glycan-binding prediction task data.`
+
+The training and test embedding data used for model training can be generated using the following notebooks:
+
+```bash
+/Glycan_binding/sugar_embedding_train.ipynb
+/Glycan_binding/sugar_embedding_test.ipynb
+```
+
+The glycan information, coordinates, sequences, solvent-accessible surface area, and ESM parameters of GBPs and glycoproteins are available from Zenodo. These files are required to run the embedding scripts.
+
+In addition, the processed embedding data are also available from Zenodo in the following directories:
+
+```bash
+/glycan binding/train_npz
+/glycan binding/test_npz
+```
+
+## 5 Glycan-Binding Data Training
+
+`Training the glycan-binding prediction model.`
+
+Run the following command:
+
+```bash
+python /Glycan_binding/train_glycan.py
+```
+
+The trained model parameters are available in the following file:
+
+```bash
+/Glycan_binding/glycan_binding.pt
+```
+
+## 6 Visualization
+
+`Visualization process.`
+
+The visualization can be performed using the following notebook:
+
+```bash
+/Visualization/Visualization.ipynb
+```
+
+The model parameters used for visualization are available in the following file:
+
+```bash
+/Glycan_binding/glycan_binding.pt
+```
