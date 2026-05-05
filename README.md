@@ -26,3 +26,5 @@ torch-spline-conv==1.2.2+pt24cu118
 torchaudio==2.4.1+cu118  
 torchvision==0.19.1+cu118  
 
+## Date preparation
+1. `Preprocessing the embedding of the ppi task data.`
