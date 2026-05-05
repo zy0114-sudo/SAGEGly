@@ -1,6 +1,6 @@
 # SAGEGly
 `SAGEGly: Using multimodal information to predict proteinglycan binding sites with the Graph Sample and Aggregate Networks Framework`
-## `The framework of SAGEGly:`
+## `SAGEGly Pipeline:`
 <img width="1252" height="569" alt="image" src="https://github.com/user-attachments/assets/1d345ac7-01c9-44c9-b1d5-41968c3ce59a" />
 
 ## `Performance of the SAGEGly model:`
