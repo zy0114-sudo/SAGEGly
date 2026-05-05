@@ -35,7 +35,7 @@ The training and test embedding data used for model training can be generated us
 
 ```bash
 /PPI/train_embedding.ipynb
-/ppi/test_embedding.ipynb
+/PPI/test_embedding.ipynb
 ```
 
 The coordinates, sequences, solvent-accessible surface area, and ESM parameters of GBPs and glycoproteins are available from Zenodo. These files are required to run the embedding scripts.
@@ -47,13 +47,13 @@ The coordinates, sequences, solvent-accessible surface area, and ESM parameters 
 Run the following command:
 
 ```bash
-python /ppi/train.py
+python /PPI/train.py
 ```
 
 The trained model parameters are saved in the following file:
 
 ```bash
-/ppi/ppi_train.pt
+/PPI/ppi_train.pt
 ```
 
 ## 3 Geometric Filtering
@@ -63,7 +63,7 @@ The trained model parameters are saved in the following file:
 Run the following command:
 
 ```bash
-python /Geometric_filtering/geometric_filtering.py
+/Geometric_filtering/geometric_filtering.ipynb
 ```
 
 ## 4 Glycan-Binding Data Preparation
