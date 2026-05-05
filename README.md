@@ -25,6 +25,7 @@ torch-sparse== 0.6.18+pt24cu118
 torch-spline-conv==1.2.2+pt24cu118  
 torchaudio==2.4.1+cu118  
 torchvision==0.19.1+cu118  
+freesasa==2.0.3.post7
 
 ## 1 PPI Data Preparation
 
@@ -33,7 +34,7 @@ torchvision==0.19.1+cu118
 The training and test embedding data used for model training can be generated using the following notebooks:
 
 ```bash
-/ppi/train_embedding.ipynb
+/PPI/train_embedding.ipynb
 /ppi/test_embedding.ipynb
 ```
 
