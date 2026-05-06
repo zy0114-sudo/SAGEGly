@@ -10,11 +10,11 @@
 <img width="1227" height="675" alt="image" src="https://github.com/user-attachments/assets/1a144152-cb2a-4e7a-a265-00a62f65b7cd" />
 
 ## `Data download:`
-We provide data, please download from the following link:
-https://zenodo.org/records/20037375
+We provide data, please download from the link: https://zenodo.org/records/20037375
 
-Glycan_binding.zip:10.9GB
-PPI.zip:15.1GB
+Glycan_binding.zip : 10.9GB
+
+PPI.zip : 15.1GB
 
 ## Dependencies
 biopython==1.83  
