@@ -9,6 +9,13 @@
 ## `Comparison with SOTA Methods:`
 <img width="1227" height="675" alt="image" src="https://github.com/user-attachments/assets/1a144152-cb2a-4e7a-a265-00a62f65b7cd" />
 
+## `Data download:`
+We provide data, please download from the following link:
+https://zenodo.org/records/20037375
+
+Glycan_binding.zip:10.9GB
+PPI.zip:15.1GB
+
 ## Dependencies
 biopython==1.83  
 fair-esm===2.0.0  
@@ -38,7 +45,7 @@ The training and test embedding data used for model training can be generated us
 /PPI/test_embedding.ipynb
 ```
 
-The coordinates, sequences, solvent-accessible surface area, and ESM parameters of GBPs and glycoproteins are available from Zenodo. These files are required to run the embedding scripts.
+The coordinates, sequences, solvent-accessible surface area, and ESM parameters of GBPs and glycoproteins are available from Zenodo:https://zenodo.org/records/20037375. These files are required to run the embedding scripts.
 
 ## 2 PPI Data Training
 
@@ -77,7 +84,7 @@ The training and test embedding data used for model training can be generated us
 /Glycan_binding/sugar_embedding_test.ipynb
 ```
 
-The glycan information, coordinates, sequences, solvent-accessible surface area, and ESM parameters of GBPs and glycoproteins are available from Zenodo. These files are required to run the embedding scripts.
+The glycan information, coordinates, sequences, solvent-accessible surface area, and ESM parameters of GBPs and glycoproteins are available from Zenodo:https://zenodo.org/records/20037375. These files are required to run the embedding scripts.
 
 In addition, the processed embedding data are also available from Zenodo in the following directories:
 
