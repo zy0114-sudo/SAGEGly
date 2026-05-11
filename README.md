@@ -87,7 +87,7 @@ The training and test embedding data used for model training can be generated us
 
 The glycan information, coordinates, sequences, solvent-accessible surface area, and ESM parameters of GBPs and glycoproteins are available from Zenodo:https://zenodo.org/records/20037375. These files are required to run the embedding scripts.
 
-In addition, the processed embedding data are also available from Zenodo in the following directories:
+In addition, the processed embedding data are also available from Zenodo:https://zenodo.org/records/20037375 in the following directories:
 
 ```bash
 /glycan binding/train_npz
@@ -96,7 +96,7 @@ In addition, the processed embedding data are also available from Zenodo in the 
 
 ## 5 Glycan-Binding Data Training
 
-`Training the glycan-binding prediction model.`
+`You can training the glycan-binding prediction model with the npz files.`
 
 Run the following command:
 
